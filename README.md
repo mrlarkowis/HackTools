@@ -14,6 +14,3 @@
 - Parrot
 - BackTrack
 - Backbox
-
-## Screenshot
-<img src="https://image.ibb.co/hhoEPp/h9t.png"/>
