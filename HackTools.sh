@@ -1,8 +1,8 @@
 #!/bin/bash
 #  
-#       Hak9Tools v1.2 
+#       HackTools v1.2 
 #  
-#             Hak9Tools Create By : mrlarokowis
+#             HackTools Create By : mrlarokowis
 #             Youtube Channel : https://www.youtube.com/c/mrlarkowis
 #             GitHub : https://github.com/mrlarkowis
 #             Jabber : mrlarkowis@jabber
@@ -31,7 +31,7 @@ clear
 echo -e $red"[*] (Ctrl + C ) Detected, Trying To Exit ..."
 sleep 1
 echo ""
-echo -e $yellow"[*] Thanks For Using Hak9Tools  :)"
+echo -e $yellow"[*] Thanks For Using HackTools  :)"
 exit
 }
 clear
