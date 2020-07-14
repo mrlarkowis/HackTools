@@ -103,7 +103,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 echo -e $green "【!】Return To The Main Menu【!】"
                 read -p "pess any key to return ..."
                 clear
-                ;;
+               
             2)  echo "InstaBrute"
                 echo -e $red "############## InstaBrute ###################"
                 sleep 2
