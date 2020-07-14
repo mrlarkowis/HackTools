@@ -1,12 +1,13 @@
 #!/bin/bash
-#
-#       Hak9Tools v1.2
-#
-#             HakTools Create By : mrlarkowis
+#  
+#       Hak9Tools v1.2 
+#  
+#             Hak9Tools Create By : mrlarokowis
+#             Youtube Channel : https://www.youtube.com/c/mrlarkowis
 #             GitHub : https://github.com/mrlarkowis
-#             İnstagram : mrlakrowis
-#
-#
+#             Jabber : mrlarkowis@jabber
+#                                     
+#                                                  
 #
 
 #Colors
@@ -34,7 +35,7 @@ echo -e $yellow"[*] Thanks For Using Hak9Tools  :)"
 exit
 }
 clear
-# check internet
+# check internet 
 function checkinternet {
   ping -c 1 google.com > /dev/null
   if [[ "$?" != 0 ]]
@@ -59,7 +60,7 @@ function main_menu()
 echo -e $blue ""
 
 echo "                          +-+-+-+-+-+-+-+-+-+                             ";
-echo "                         |M|R|L|A|R|K|O|W|İ|S|                             ";
+echo "                         |M|R|L|A|R|K|O|W|İ|S|                            ";
 echo "                          +-+-+-+-+-+-+-+-+-+                             ";
 echo "                                                        ";
 echo "██╗  ██╗ █████╗ ██╗  ██╗ █████╗ ████████╗ ██████╗  ██████╗ ██╗     ███████╗";
@@ -72,8 +73,9 @@ echo "                                                        ";
 
 echo ""
 echo -e $cyan"    Create by           $white":" $red mrlarkowis  "
-echo -e $cyan"    Github              $white":" $red https://github.com/mrlakowis"
-echo -e $cyan"    İnstagram           $white":" $red @mrlakrowis
+echo -e $cyan"    Youtube Channel     $white":" $red https://www.youtube.com/c/mrlarkowis"
+echo -e $cyan"    Github              $white":" $red https://github.com/mrlarkowis"
+echo -e $cyan"    Jabber              $white":" $red mrlarkowis@jabber.de"
 echo -e $cyan ""
 echo -e $okegreen"   ====================== Tool List =======================    ";
         echo
@@ -86,14 +88,14 @@ echo -e $okegreen"   ====================== Tool List =======================   
         echo
         read -p "Select>: " option
         echo
-
-        case "$option" in
+        
+        case "$option" in 
             1)  echo "Gmail-Hack"
                 echo -e $red "############## Gmail-Hack ###################"
                 sleep 2
                 git clone https://github.com/xHak9x/gmailhack > /dev/null 2>&1
                 echo
-                echo  -e $green "[ ✔ ] Gmail-Hack Downloaded "
+                echo  -e $green "[ ✔ ] Gmail-Hack Downloaded " 
                 cd gmailhack
                 chmod +x gmailhack.py
                 cd ..
@@ -103,6 +105,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 echo -e $green "【!】Return To The Main Menu【!】"
                 read -p "pess any key to return ..."
                 clear
+                ;;
             2)  echo "InstaBrute"
                 echo -e $red "############## InstaBrute ###################"
                 sleep 2
@@ -204,7 +207,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 git clone https://github.com/xHak9x/SocialPhish > /dev/null 2>&1
                 echo
                 echo -e $green "[ ✔ ] SocialPhish  Downloaded "
-                echo -e $yellow ""
+                echo -e $yellow "" 
                 cd SocialPhish
                 chmod +x socialphish.sh
                 cd ..
@@ -220,7 +223,7 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 sleep 2
                 git clone https://github.com/xHak9x/PwGen > /dev/null 2>&1
                 echo
-                echo  -e $green "[ ✔ ] PwGen Downloaded "
+                echo  -e $green "[ ✔ ] PwGen Downloaded " 
                 cd PwGen
                 chmod +x pwgen.py
                 cd ..
@@ -231,9 +234,9 @@ echo -e $okegreen"   ====================== Tool List =======================   
                 read -p "pess any key to return ..."
                 clear
                 ;;
-            q)  echo -e $yellow " Thanks For Using My Tools Good Bye  {Hak9}  !!"
+            q)  echo -e $yellow " Thanks For Using My Tools Good Bye  {mrlarkowis}  !!"
                 echo
-                exit 0
+                exit 0 
                 ;;
         esac
     done
