@@ -1,10 +1,10 @@
 # HackTools
-# Author: @mrlakowis
+# Author/Edits: @mrlakowis
 # https://github.com/mrlarkowis/HackTools.git
 
 ## Getting Started
 1. ```git clone https://github.com/mrlarkowis/HackTools.git```
-2. ```cd Hak9Tools```
+2. ```cd HackTools```
 3. ```chmod +x hak9tools.sh ```
 4. ```./hak9tools.sh ```
 
@@ -16,6 +16,7 @@
 - Backbox
 
 
-Producer By xHak9x
-https://github.com/xHak9x
-Thank you xHack9x
+- Thank you xHack9x
+
+# Producer By xHak9x 
+# https://github.com/xHak9x
